@@ -1,0 +1,10 @@
+####################
+##   For colorized MAN pages
+export LESSBINFMT="*k<%02X>"             # show ^A [control] characters in different color
+export LESS_TERMCAP_mb=$'\e[01;30m'      # begin blinking                 [grey-black bold]
+export LESS_TERMCAP_md=$'\e[38;05;38m'   # begin bold                     [Cyan on black]
+export LESS_TERMCAP_se=$'\e[0m'          # end standout-mode              [reset]
+export LESS_TERMCAP_so=$'\e[07;107;34m'  # begin standout-mode - info box [white on blue]
+export LESS_TERMCAP_ue=$'\e[0m'          # end underline                  [reset]
+export LESS_TERMCAP_us=$'\e[01;04;32m'   # begin underline                [bold underlined Green]
+export LESS_TERMCAP_me=$'\e[0m'          # end mode                       [reset]
