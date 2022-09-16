@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 ####################
 ##   For colorized MAN pages
 export LESSBINFMT="*k<%02X>"             # show ^A [control] characters in different color
